@@ -14,13 +14,13 @@ import TableContainer from '@mui/material/TableContainer'
 import { ThemeColor } from 'src/@core/layouts/types'
 
 interface RowType {
-  age: number
-  name: string
-  date: string
-  email: string
-  salary: string
-  status: string
-  designation: string
+    age: number
+    name: string
+    date: string
+    email: string
+    salary: string
+    status: string
+    designation: string
 }
 
 interface StatusObj {

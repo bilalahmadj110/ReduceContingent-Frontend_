@@ -10,11 +10,11 @@ import MuiToolbar, { ToolbarProps } from '@mui/material/Toolbar'
 import { Settings } from 'src/@core/context/settingsContext'
 
 interface Props {
-  hidden: boolean
-  settings: Settings
-  toggleNavVisibility: () => void
-  saveSettings: (values: Settings) => void
-  verticalAppBarContent?: (props?: any) => ReactNode
+    hidden: boolean
+    settings: Settings
+    toggleNavVisibility: () => void
+    saveSettings: (values: Settings) => void
+    verticalAppBarContent?: (props?: any) => ReactNode
 }
 
 const AppBar = styled(MuiAppBar)<AppBarProps>(({ theme }) => ({

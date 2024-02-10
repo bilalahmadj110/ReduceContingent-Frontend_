@@ -6,16 +6,16 @@ import TableHead from '@mui/material/TableHead'
 import TableBody from '@mui/material/TableBody'
 import TableContainer from '@mui/material/TableContainer'
 import TableRow, { TableRowProps } from '@mui/material/TableRow'
-import TableCell, { TableCellProps, tableCellClasses } from '@mui/material/TableCell'
+import TableCell, { tableCellClasses, TableCellProps } from '@mui/material/TableCell'
 
 const StyledTableCell = styled(TableCell)<TableCellProps>(({ theme }) => ({
-  [`&.${tableCellClasses.head}`]: {
-    color: theme.palette.common.white,
-    backgroundColor: theme.palette.common.black
-  },
-  [`&.${tableCellClasses.body}`]: {
-    fontSize: 14
-  }
+    [`&.${tableCellClasses.head}`]: {
+        color: theme.palette.common.white,
+        backgroundColor: theme.palette.common.black
+    },
+    [`&.${tableCellClasses.body}`]: {
+        fontSize: 14
+    }
 }))
 
 const StyledTableRow = styled(TableRow)<TableRowProps>(({ theme }) => ({

@@ -10,8 +10,8 @@ import WeatherSunny from 'mdi-material-ui/WeatherSunny'
 import { Settings } from 'src/@core/context/settingsContext'
 
 interface Props {
-  settings: Settings
-  saveSettings: (values: Settings) => void
+    settings: Settings
+    saveSettings: (values: Settings) => void
 }
 
 const ModeToggler = (props: Props) => {

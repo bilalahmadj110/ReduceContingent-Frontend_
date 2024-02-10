@@ -22,18 +22,18 @@ import VerticalNavHeader from './VerticalNavHeader'
 import { hexToRGBA } from 'src/@core/utils/hex-to-rgba'
 
 interface Props {
-  hidden: boolean
-  navWidth: number
-  settings: Settings
-  children: ReactNode
-  navVisible: boolean
-  toggleNavVisibility: () => void
-  setNavVisible: (value: boolean) => void
-  verticalNavItems?: VerticalNavItemsType
-  saveSettings: (values: Settings) => void
-  verticalNavMenuContent?: (props?: any) => ReactNode
-  afterVerticalNavMenuContent?: (props?: any) => ReactNode
-  beforeVerticalNavMenuContent?: (props?: any) => ReactNode
+    hidden: boolean
+    navWidth: number
+    settings: Settings
+    children: ReactNode
+    navVisible: boolean
+    toggleNavVisibility: () => void
+    setNavVisible: (value: boolean) => void
+    verticalNavItems?: VerticalNavItemsType
+    saveSettings: (values: Settings) => void
+    verticalNavMenuContent?: (props?: any) => ReactNode
+    afterVerticalNavMenuContent?: (props?: any) => ReactNode
+    beforeVerticalNavMenuContent?: (props?: any) => ReactNode
 }
 
 const StyledBoxForShadow = styled(Box)<BoxProps>({

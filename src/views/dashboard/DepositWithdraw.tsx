@@ -8,12 +8,12 @@ import CardContent from '@mui/material/CardContent'
 import MuiDivider, { DividerProps } from '@mui/material/Divider'
 
 interface DataType {
-  logo: string
-  title: string
-  amount: string
-  subtitle: string
-  logoWidth: number
-  logoHeight: number
+    logo: string
+    title: string
+    amount: string
+    subtitle: string
+    logoWidth: number
+    logoHeight: number
 }
 
 const depositData = [

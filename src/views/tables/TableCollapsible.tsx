@@ -1,5 +1,5 @@
 // ** React Imports
-import { useState, Fragment } from 'react'
+import { Fragment, useState } from 'react'
 
 // ** MUI Imports
 import Box from '@mui/material/Box'
@@ -19,26 +19,26 @@ import ChevronUp from 'mdi-material-ui/ChevronUp'
 import ChevronDown from 'mdi-material-ui/ChevronDown'
 
 const createData = (name: string, calories: number, fat: number, carbs: number, protein: number, price: number) => {
-  return {
-    name,
-    calories,
-    fat,
-    carbs,
-    protein,
-    price,
-    history: [
-      {
-        date: '2020-01-05',
-        customerId: '11091700',
-        amount: 3
-      },
-      {
-        date: '2020-01-02',
-        customerId: 'Anonymous',
-        amount: 1
-      }
-    ]
-  }
+    return {
+        name,
+        calories,
+        fat,
+        carbs,
+        protein,
+        price,
+        history: [
+            {
+                date: '2020-01-05',
+                customerId: '11091700',
+                amount: 3
+            },
+            {
+                date: '2020-01-02',
+                customerId: 'Anonymous',
+                amount: 1
+            }
+        ]
+    }
 }
 
 const Row = (props: { row: ReturnType<typeof createData> }) => {

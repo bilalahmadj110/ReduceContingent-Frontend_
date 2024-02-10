@@ -28,10 +28,10 @@ import UserIcon from 'src/layouts/components/UserIcon'
 import { handleURLQueries } from 'src/@core/layouts/utils'
 
 interface Props {
-  item: NavLink
-  settings: Settings
-  navVisible?: boolean
-  toggleNavVisibility: () => void
+    item: NavLink
+    settings: Settings
+    navVisible?: boolean
+    toggleNavVisibility: () => void
 }
 
 // ** Styled Components

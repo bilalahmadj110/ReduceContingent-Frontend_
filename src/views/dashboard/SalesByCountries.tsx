@@ -19,14 +19,14 @@ import DotsVertical from 'mdi-material-ui/DotsVertical'
 import { ThemeColor } from 'src/@core/layouts/types'
 
 interface DataType {
-  title: string
-  sales: string
-  trend: ReactNode
-  trendDir: string
-  subtitle: string
-  avatarText: string
-  trendNumber: string
-  avatarColor: ThemeColor
+    title: string
+    sales: string
+    trend: ReactNode
+    trendDir: string
+    subtitle: string
+    avatarText: string
+    trendNumber: string
+    avatarColor: ThemeColor
 }
 
 const data: DataType[] = [

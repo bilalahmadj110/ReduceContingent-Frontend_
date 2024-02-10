@@ -7,14 +7,14 @@ import VerticalNavLink from './VerticalNavLink'
 import VerticalNavSectionTitle from './VerticalNavSectionTitle'
 
 interface Props {
-  settings: Settings
-  navVisible?: boolean
-  groupActive: string[]
-  currentActiveGroup: string[]
-  verticalNavItems?: VerticalNavItemsType
-  saveSettings: (values: Settings) => void
-  setGroupActive: (value: string[]) => void
-  setCurrentActiveGroup: (item: string[]) => void
+    settings: Settings
+    navVisible?: boolean
+    groupActive: string[]
+    currentActiveGroup: string[]
+    verticalNavItems?: VerticalNavItemsType
+    saveSettings: (values: Settings) => void
+    setGroupActive: (value: string[]) => void
+    setCurrentActiveGroup: (item: string[]) => void
 }
 
 const resolveNavItemComponent = (item: NavLink | NavSectionTitle) => {

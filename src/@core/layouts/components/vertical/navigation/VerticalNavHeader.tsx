@@ -16,11 +16,11 @@ import { Settings } from 'src/@core/context/settingsContext'
 import themeConfig from 'src/configs/themeConfig'
 
 interface Props {
-  hidden: boolean
-  settings: Settings
-  toggleNavVisibility: () => void
-  saveSettings: (values: Settings) => void
-  verticalNavMenuBranding?: (props?: any) => ReactNode
+    hidden: boolean
+    settings: Settings
+    toggleNavVisibility: () => void
+    saveSettings: (values: Settings) => void
+    verticalNavMenuBranding?: (props?: any) => ReactNode
 }
 
 // ** Styled Components

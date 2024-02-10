@@ -6,8 +6,8 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 import { styled, useTheme } from '@mui/material/styles'
 
 interface FooterIllustrationsProp {
-  image1?: ReactNode
-  image2?: ReactNode
+    image1?: ReactNode
+    image2?: ReactNode
 }
 
 // Styled Components

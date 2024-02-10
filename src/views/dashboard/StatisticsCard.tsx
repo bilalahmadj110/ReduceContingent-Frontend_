@@ -22,10 +22,10 @@ import AccountOutline from 'mdi-material-ui/AccountOutline'
 import { ThemeColor } from 'src/@core/layouts/types'
 
 interface DataType {
-  stats: string
-  title: string
-  color: ThemeColor
-  icon: ReactElement
+    stats: string
+    title: string
+    color: ThemeColor
+    icon: ReactElement
 }
 
 const salesData: DataType[] = [

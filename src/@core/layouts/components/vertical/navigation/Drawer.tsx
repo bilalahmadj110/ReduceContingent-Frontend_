@@ -9,13 +9,13 @@ import MuiSwipeableDrawer, { SwipeableDrawerProps } from '@mui/material/Swipeabl
 import { Settings } from 'src/@core/context/settingsContext'
 
 interface Props {
-  hidden: boolean
-  navWidth: number
-  settings: Settings
-  navVisible: boolean
-  children: ReactNode
-  setNavVisible: (value: boolean) => void
-  saveSettings: (values: Settings) => void
+    hidden: boolean
+    navWidth: number
+    settings: Settings
+    navVisible: boolean
+    children: ReactNode
+    setNavVisible: (value: boolean) => void
+    saveSettings: (values: Settings) => void
 }
 
 const SwipeableDrawer = styled(MuiSwipeableDrawer)<SwipeableDrawerProps>({

@@ -7,8 +7,8 @@ import { styled } from '@mui/material/styles'
 import useScrollTrigger from '@mui/material/useScrollTrigger'
 
 interface ScrollToTopProps {
-  className?: string
-  children: ReactNode
+    className?: string
+    children: ReactNode
 }
 
 const ScrollToTopStyled = styled('div')(({ theme }) => ({

@@ -8,10 +8,10 @@ import TableCell from '@mui/material/TableCell'
 import TableContainer from '@mui/material/TableContainer'
 
 interface Row {
-  desc: string
-  qty: number
-  unit: number
-  price: number
+    desc: string
+    qty: number
+    unit: number
+    price: number
 }
 
 const TAX_RATE = 0.07

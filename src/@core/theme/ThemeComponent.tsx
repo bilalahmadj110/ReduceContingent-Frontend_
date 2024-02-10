@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 // ** MUI Imports
 import CssBaseline from '@mui/material/CssBaseline'
 import GlobalStyles from '@mui/material/GlobalStyles'
-import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material/styles'
+import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles'
 
 // ** Type Imports
 import { Settings } from 'src/@core/context/settingsContext'
@@ -23,8 +23,8 @@ import themeOptions from './ThemeOptions'
 import GlobalStyling from './globalStyles'
 
 interface Props {
-  settings: Settings
-  children: ReactNode
+    settings: Settings
+    children: ReactNode
 }
 
 const ThemeComponent = (props: Props) => {

@@ -12,9 +12,9 @@ import { Settings } from 'src/@core/context/settingsContext'
 import FooterContent from './FooterContent'
 
 interface Props {
-  settings: Settings
-  saveSettings: (values: Settings) => void
-  footerContent?: (props?: any) => ReactNode
+    settings: Settings
+    saveSettings: (values: Settings) => void
+    footerContent?: (props?: any) => ReactNode
 }
 
 const Footer = (props: Props) => {

@@ -1,5 +1,5 @@
 // ** React Imports
-import { useState, ChangeEvent } from 'react'
+import { ChangeEvent, useState } from 'react'
 
 // ** MUI Imports
 import Paper from '@mui/material/Paper'
@@ -12,11 +12,11 @@ import TableContainer from '@mui/material/TableContainer'
 import TablePagination from '@mui/material/TablePagination'
 
 interface Column {
-  id: 'name' | 'code' | 'population' | 'size' | 'density'
-  label: string
-  minWidth?: number
-  align?: 'right'
-  format?: (value: number) => string
+    id: 'name' | 'code' | 'population' | 'size' | 'density'
+    label: string
+    minWidth?: number
+    align?: 'right'
+    format?: (value: number) => string
 }
 
 const columns: readonly Column[] = [

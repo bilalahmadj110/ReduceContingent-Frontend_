@@ -8,7 +8,7 @@ import MuiListSubheader, { ListSubheaderProps } from '@mui/material/ListSubheade
 import { NavSectionTitle } from 'src/@core/layouts/types'
 
 interface Props {
-  item: NavSectionTitle
+    item: NavSectionTitle
 }
 
 // ** Styled Components

@@ -16,13 +16,13 @@ import DotsVertical from 'mdi-material-ui/DotsVertical'
 import { ThemeColor } from 'src/@core/layouts/types'
 
 interface DataType {
-  title: string
-  imgSrc: string
-  amount: string
-  subtitle: string
-  progress: number
-  color: ThemeColor
-  imgHeight: number
+    title: string
+    imgSrc: string
+    amount: string
+    subtitle: string
+    progress: number
+    color: ThemeColor
+    imgHeight: number
 }
 
 const data: DataType[] = [
